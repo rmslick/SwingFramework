@@ -1,0 +1,14 @@
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "XLRE",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 25,
+    "Percent Profitable": 40.0,
+    "Profit Factor": 0.48075491917959057,
+    "Total Profit/Loss": -1744.3000000000009
+}

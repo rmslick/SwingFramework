@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "PEP",
+    "SMA Length": 10,
+    "Slope Length": 5,
+    "Total Trades": 47,
+    "Percent Profitable": 48.93617021276596,
+    "Profit Factor": 1.72944118745074,
+    "Total Profit/Loss": 4220.429999999994
+}

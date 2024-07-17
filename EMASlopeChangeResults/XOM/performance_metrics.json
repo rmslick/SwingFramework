@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "XOM",
+    "EMA Length": 10,
+    "Slope Length": 5,
+    "Total Trades": 53,
+    "Percent Profitable": 49.056603773584904,
+    "Profit Factor": 1.7482759078693584,
+    "Total Profit/Loss": 10140.680000000011
+}

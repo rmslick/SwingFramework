@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "PG",
+    "EMA Length": 20,
+    "Slope Length": 5,
+    "Total Trades": 37,
+    "Percent Profitable": 51.35135135135135,
+    "Profit Factor": 2.3185286666449216,
+    "Total Profit/Loss": 6063.319999999996
+}

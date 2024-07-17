@@ -1,0 +1,2 @@
+Stock,Date,Close,Short_SMA,Long_SMA,Crossover_Type
+HD,2024-07-17,372.13,350.236,347.669,Golden Cross

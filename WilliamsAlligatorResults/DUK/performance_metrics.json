@@ -1,0 +1,14 @@
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "DUK",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 24,
+    "Percent Profitable": 58.333333333333336,
+    "Profit Factor": 0.7512257573292159,
+    "Total Profit/Loss": -810.2999999999969
+}

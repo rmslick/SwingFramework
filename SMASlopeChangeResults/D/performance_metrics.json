@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "D",
+    "SMA Length": 50,
+    "Slope Length": 5,
+    "Total Trades": 18,
+    "Percent Profitable": 38.88888888888889,
+    "Profit Factor": 0.2786116493019081,
+    "Total Profit/Loss": -5562.640000000001
+}

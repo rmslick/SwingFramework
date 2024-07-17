@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "BA",
+    "EMA Length": 10,
+    "Slope Length": 5,
+    "Total Trades": 43,
+    "Percent Profitable": 25.581395348837212,
+    "Profit Factor": 1.2369119305994696,
+    "Total Profit/Loss": 4622.409999999998
+}

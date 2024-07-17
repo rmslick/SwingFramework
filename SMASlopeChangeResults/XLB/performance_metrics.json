@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "XLB",
+    "SMA Length": 50,
+    "Slope Length": 5,
+    "Total Trades": 18,
+    "Percent Profitable": 44.44444444444444,
+    "Profit Factor": 1.6302478188637073,
+    "Total Profit/Loss": 4465.060000000005
+}

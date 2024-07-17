@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "XLB",
+    "EMA Length": 50,
+    "Slope Length": 5,
+    "Total Trades": 26,
+    "Percent Profitable": 61.53846153846154,
+    "Profit Factor": 1.6036314965479288,
+    "Total Profit/Loss": 3959.719999999999
+}

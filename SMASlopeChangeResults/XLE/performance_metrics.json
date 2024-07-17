@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "XLE",
+    "SMA Length": 10,
+    "Slope Length": 5,
+    "Total Trades": 42,
+    "Percent Profitable": 47.61904761904761,
+    "Profit Factor": 2.3587319918831504,
+    "Total Profit/Loss": 13318.06000000001
+}

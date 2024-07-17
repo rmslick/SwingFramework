@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "PEP",
+    "EMA Length": 20,
+    "Slope Length": 5,
+    "Total Trades": 37,
+    "Percent Profitable": 48.64864864864865,
+    "Profit Factor": 1.1248198933768787,
+    "Total Profit/Loss": 831.6399999999962
+}

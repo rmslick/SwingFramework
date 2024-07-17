@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "UNH",
+    "SMA Length": 100,
+    "Slope Length": 5,
+    "Total Trades": 14,
+    "Percent Profitable": 42.857142857142854,
+    "Profit Factor": 1.8711790571800553,
+    "Total Profit/Loss": 4255.6399999999985
+}
