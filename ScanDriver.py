@@ -220,8 +220,14 @@ for i, metrics in enumerate(performance_metrics_list):
     metrics["Score"] = scores[i]
 
 # Sort the list of dictionaries by the combined score
-performance_metrics_list.sort(key=lambda x: x["Score"], reverse=True)
+performance_metrics_list.sort(key=lambda x: x["Percent Profitable"], reverse=True)
 
-# Print the sorted list
-for metrics in performance_metrics_list:
-    print(json.dumps(metrics, indent=4))
+# Define the output file path
+output_file_path = os.path.join(os.getcwd(), 'performance_metrics.json')
+
+# Save the sorted list to the JSON file
+with open(output_file_path, 'w') as f:
+    for metrics in performance_metrics_list:
+        f.write(json.dumps(metrics, indent=4) + '\n')
+
+print(f'Performance metrics saved to {output_file_path}')

@@ -4,6 +4,7 @@ import json
 import os
 import argparse
 from datetime import datetime, timedelta
+
 # Define the path to the configuration file
 config_file_path = os.path.join(os.path.dirname(__file__), 'config.json')
 
@@ -17,9 +18,10 @@ YEARS_TO_LOOK_BACK = config['YEARS_TO_LOOK_BACK']
 INITIAL_CASH = config['INITIAL_CASH']
 PERCENT_TO_INVEST = config['PERCENT_TO_INVEST']
 PERCENT_STOP_LOSS = config['PERCENT_STOP_LOSS']
+STRATEGY_TITLE = 'MACD and SMA Crossover Strategy with Positioning'
 
 # Parse command-line arguments
-parser = argparse.ArgumentParser(description='MACD Backtesting Script')
+parser = argparse.ArgumentParser(description='MACD and SMA Crossover Backtesting Script')
 parser.add_argument('symbol', type=str, help='Stock symbol to backtest')
 args = parser.parse_args()
 
@@ -40,7 +42,13 @@ df['date'] = pd.to_datetime(df['date'])
 df.set_index('date', inplace=True)
 df = df.sort_index()
 
-# Calculate MACD and signal line
+# Calculate SMAs
+df['SMA50'] = df['close'].rolling(window=50).mean()
+df['SMA200'] = df['close'].rolling(window=200).mean()
+df['SMA5'] = df['close'].rolling(window=5).mean()
+df['SMA10'] = df['close'].rolling(window=10).mean()
+
+# Calculate MACD
 df['EMA12'] = df['close'].ewm(span=12, adjust=False).mean()
 df['EMA26'] = df['close'].ewm(span=26, adjust=False).mean()
 df['MACD'] = df['EMA12'] - df['EMA26']
@@ -48,7 +56,12 @@ df['Signal_Line'] = df['MACD'].ewm(span=9, adjust=False).mean()
 
 # Generate buy/sell signals
 df['Signal'] = 0
-df.loc[df['MACD'] > df['Signal_Line'], 'Signal'] = 1  # Buy signal
+df['MACD_Crossover'] = (df['MACD'] > df['Signal_Line']) & (df['MACD'].shift(1) <= df['Signal_Line'].shift(1))
+df['SMA5_Slope_Positive'] = df['SMA5'] > df['SMA5'].shift(1)
+df['SMA_Crossover_Recent'] = df['SMA5'].shift(1).rolling(window=3).apply(lambda x: any(x > df['SMA10'].shift(1).rolling(window=3).apply(lambda y: y.any())), raw=False)
+
+# Check buy conditions
+df.loc[(df['close'] > df['SMA50']) & (df['close'] > df['SMA200']) & df['MACD_Crossover'] & df['SMA_Crossover_Recent'] & df['SMA5_Slope_Positive'], 'Signal'] = 1
 df.loc[df['MACD'] < df['Signal_Line'], 'Signal'] = -1  # Sell signal
 
 # Correctly set the Position column
@@ -111,7 +124,7 @@ for i in range(1, len(trades), 2):
         'Entry Price': buy_trade['price'],
         'Exit Price': sell_trade['price'],
         'Profit/Loss': profit,
-        'Stopped Out': sell_trade['stopped_out']
+        'Stopped Out': sell_trade.get('stopped_out', False)
     })
 
 trade_log_df = pd.DataFrame(trade_log)
@@ -129,6 +142,8 @@ total_profit_loss = trade_log_df['Profit/Loss'].sum()
 
 # Performance metrics dictionary
 performance_metrics = {
+    'Strategy Title': STRATEGY_TITLE,
+    'Symbol': SYMBOL,
     'Total Trades': total_trades,
     'Percent Profitable': percent_profitable,
     'Profit Factor': profit_factor,
@@ -136,20 +151,26 @@ performance_metrics = {
 }
 
 # Define directories
-results_dir = 'MACDResults'
-symbol_dir = os.path.join(results_dir, SYMBOL)
+results_dir = 'MACD_SMA_Crossover_Results'
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+result_dir_with_timestamp = os.path.join(results_dir, SYMBOL, timestamp)
 
 # Create directories if they do not exist
-os.makedirs(symbol_dir, exist_ok=True)
+os.makedirs(result_dir_with_timestamp, exist_ok=True)
 
 # Save trading log to CSV
-trade_log_csv_path = os.path.join(symbol_dir, 'trading_log.csv')
+trade_log_csv_path = os.path.join(result_dir_with_timestamp, 'trading_log.csv')
 trade_log_df.to_csv(trade_log_csv_path, index=False)
 
 # Save performance metrics to JSON
-performance_metrics_json_path = os.path.join(symbol_dir, 'performance_metrics.json')
+performance_metrics_json_path = os.path.join(result_dir_with_timestamp, 'performance_metrics.json')
 with open(performance_metrics_json_path, 'w') as f:
     json.dump(performance_metrics, f, indent=4)
+
+# Save the config file
+config_json_path = os.path.join(result_dir_with_timestamp, 'config.json')
+with open(config_json_path, 'w') as f:
+    json.dump(config, f, indent=4)
 
 # Print performance metrics
 print(performance_metrics)
