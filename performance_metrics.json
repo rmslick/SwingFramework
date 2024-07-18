@@ -9,9 +9,9 @@
     "Lips Shift": 3,
     "Total Trades": 31,
     "Percent Profitable": 67.74193548387096,
-    "Profit Factor": 5.239621087314664,
-    "Total Profit/Loss": 9264.420000000002,
-    "Score": 2.5936805285909985
+    "Profit Factor": 5.1226710348109386,
+    "Total Profit/Loss": 9010.18,
+    "Score": 2.6645119004304596
 }
 {
     "Strategy Title": "Williams Alligator Long Strategy with Positioning",
@@ -26,7 +26,16 @@
     "Percent Profitable": 58.333333333333336,
     "Profit Factor": 0.7512257573292159,
     "Total Profit/Loss": -810.2999999999969,
-    "Score": 0.9614798699775277
+    "Score": 1.3084110794371346
+}
+{
+    "Strategy Title": "MACD with RSI Confirmation Strategy",
+    "Symbol": "WFC",
+    "Total Trades": 24,
+    "Percent Profitable": 54.166666666666664,
+    "Profit Factor": 1.4753943875752618,
+    "Total Profit/Loss": 2643.4399999999973,
+    "Score": 1.5162333134034782
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
@@ -35,9 +44,9 @@
     "Long SMA Length": 50,
     "Total Trades": 13,
     "Percent Profitable": 53.84615384615385,
-    "Profit Factor": 2.4839165697298675,
-    "Total Profit/Loss": 5510.909999999996,
-    "Score": 1.5112764727942456
+    "Profit Factor": 2.5400373787670345,
+    "Total Profit/Loss": 5743.399999999997,
+    "Score": 1.8341884047253563
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
@@ -48,7 +57,7 @@
     "Percent Profitable": 52.0,
     "Profit Factor": 1.753969594491962,
     "Total Profit/Loss": 6204.739999999989,
-    "Score": 1.3460173257187629
+    "Score": 1.670579982263407
 }
 {
     "Strategy Title": "Williams Alligator Long Strategy with Positioning",
@@ -61,9 +70,9 @@
     "Lips Shift": 3,
     "Total Trades": 29,
     "Percent Profitable": 51.724137931034484,
-    "Profit Factor": 0.9679927229005153,
-    "Total Profit/Loss": -101.69000000000267,
-    "Score": 0.8830189288192497
+    "Profit Factor": 0.9822766050547918,
+    "Total Profit/Loss": -55.4900000000041,
+    "Score": 1.2839168668877587
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -74,7 +83,7 @@
     "Percent Profitable": 50.0,
     "Profit Factor": 1.1779412378243466,
     "Total Profit/Loss": 2900.2500000000014,
-    "Score": 1.0248751244309289
+    "Score": 1.4061744339625784
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -85,7 +94,7 @@
     "Percent Profitable": 48.93617021276596,
     "Profit Factor": 1.72944118745074,
     "Total Profit/Loss": 4220.429999999994,
-    "Score": 1.176572981491398
+    "Score": 1.5470430202357783
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -96,7 +105,7 @@
     "Percent Profitable": 48.837209302325576,
     "Profit Factor": 1.2852642001980372,
     "Total Profit/Loss": 3359.1399999999967,
-    "Score": 1.0410515427307494
+    "Score": 1.426962376510918
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
@@ -107,7 +116,7 @@
     "Percent Profitable": 48.64864864864865,
     "Profit Factor": 1.1248198933768787,
     "Total Profit/Loss": 831.6399999999962,
-    "Score": 0.8861437205860423
+    "Score": 1.2992118648058502
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -118,7 +127,7 @@
     "Percent Profitable": 47.82608695652174,
     "Profit Factor": 1.8442909307426372,
     "Total Profit/Loss": 18064.929999999986,
-    "Score": 1.8135959080433588
+    "Score": 2.0660293928885967
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -129,7 +138,7 @@
     "Percent Profitable": 47.61904761904761,
     "Profit Factor": 2.3587319918831504,
     "Total Profit/Loss": 13318.06000000001,
-    "Score": 1.6977068926948522
+    "Score": 1.987520905079351
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
@@ -138,9 +147,9 @@
     "Slope Length": 5,
     "Total Trades": 30,
     "Percent Profitable": 46.666666666666664,
-    "Profit Factor": 2.108613585509043,
-    "Total Profit/Loss": 9373.860000000002,
-    "Score": 1.4404150313448802
+    "Profit Factor": 2.1980144898532967,
+    "Total Profit/Loss": 9757.840000000006,
+    "Score": 1.8101782479683886
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
@@ -151,7 +160,7 @@
     "Percent Profitable": 46.26865671641791,
     "Profit Factor": 0.9928037485321556,
     "Total Profit/Loss": -113.24999999999545,
-    "Score": 0.7583050503982185
+    "Score": 1.2032985140912453
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
@@ -160,9 +169,9 @@
     "Long SMA Length": 34,
     "Total Trades": 24,
     "Percent Profitable": 45.83333333333333,
-    "Profit Factor": 1.0652381963229611,
-    "Total Profit/Loss": 550.109999999996,
-    "Score": 0.7938396435277885
+    "Profit Factor": 1.0853085390161525,
+    "Total Profit/Loss": 721.1599999999953,
+    "Score": 1.2458460093553057
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -173,7 +182,7 @@
     "Percent Profitable": 45.23809523809524,
     "Profit Factor": 1.580055464763307,
     "Total Profit/Loss": 6722.459999999985,
-    "Score": 1.1729624044282865
+    "Score": 1.55599357148213
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
@@ -182,9 +191,9 @@
     "Slope Length": 5,
     "Total Trades": 16,
     "Percent Profitable": 43.75,
-    "Profit Factor": 1.036117817479479,
-    "Total Profit/Loss": 239.3600000000015,
-    "Score": 0.7239541382238535
+    "Profit Factor": 1.0199229482738026,
+    "Total Profit/Loss": 133.42000000000007,
+    "Score": 1.18055168578184
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
@@ -195,7 +204,7 @@
     "Percent Profitable": 42.857142857142854,
     "Profit Factor": 1.4644546852838947,
     "Total Profit/Loss": 6202.30000000001,
-    "Score": 1.06816281235188
+    "Score": 1.4790071944144776
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -206,7 +215,7 @@
     "Percent Profitable": 42.857142857142854,
     "Profit Factor": 1.8711790571800553,
     "Total Profit/Loss": 4255.6399999999985,
-    "Score": 1.0638178649457646
+    "Score": 1.4862783085162738
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -217,7 +226,7 @@
     "Percent Profitable": 42.30769230769231,
     "Profit Factor": 1.643788841569612,
     "Total Profit/Loss": 5437.550000000007,
-    "Score": 1.057535146270189
+    "Score": 1.477569397642514
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -228,7 +237,7 @@
     "Percent Profitable": 40.0,
     "Profit Factor": 0.8408375488189335,
     "Total Profit/Loss": -1344.4500000000035,
-    "Score": 0.5208173417604023
+    "Score": 1.0354785113465512
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
@@ -239,7 +248,7 @@
     "Percent Profitable": 37.735849056603776,
     "Profit Factor": 0.8322550712683964,
     "Total Profit/Loss": -2538.12000000001,
-    "Score": 0.41019766919493944
+    "Score": 0.9561531989955294
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -250,7 +259,7 @@
     "Percent Profitable": 37.5,
     "Profit Factor": 0.9497650800334645,
     "Total Profit/Loss": -362.6700000000019,
-    "Score": 0.5297559387335742
+    "Score": 1.0562135560455082
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
@@ -261,7 +270,18 @@
     "Percent Profitable": 36.734693877551024,
     "Profit Factor": 1.262322088755399,
     "Total Profit/Loss": 3737.1900000000055,
-    "Score": 0.7666236002510811
+    "Score": 1.2578348055050097
+}
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "UNP",
+    "EMA Length": 100,
+    "Slope Length": 5,
+    "Total Trades": 22,
+    "Percent Profitable": 36.36363636363637,
+    "Profit Factor": 1.1600319144633557,
+    "Total Profit/Loss": 870.500000000002,
+    "Score": 1.1261752496272481
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
@@ -270,31 +290,20 @@
     "Long SMA Length": 50,
     "Total Trades": 14,
     "Percent Profitable": 35.714285714285715,
-    "Profit Factor": 2.0301428527324608,
-    "Total Profit/Loss": 4671.430000000001,
-    "Score": 0.9470238283273267
-}
-{
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "UNP",
-    "EMA Length": 100,
-    "Slope Length": 5,
-    "Total Trades": 23,
-    "Percent Profitable": 34.78260869565217,
-    "Profit Factor": 0.9621368359930325,
-    "Total Profit/Loss": -245.82999999999834,
-    "Score": 0.4732987386376747
+    "Profit Factor": 2.1399189655812565,
+    "Total Profit/Loss": 4912.230000000001,
+    "Score": 1.4576243833681202
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
     "Symbol": "JNJ",
     "EMA Length": 100,
     "Slope Length": 5,
-    "Total Trades": 25,
-    "Percent Profitable": 28.000000000000004,
-    "Profit Factor": 0.4844088682317339,
-    "Total Profit/Loss": -3594.1599999999976,
-    "Score": 0.057366548042704656
+    "Total Trades": 23,
+    "Percent Profitable": 30.434782608695656,
+    "Profit Factor": 0.5396477976855839,
+    "Total Profit/Loss": -2849.9299999999967,
+    "Score": 0.7797026005707105
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
@@ -305,5 +314,23 @@
     "Percent Profitable": 25.581395348837212,
     "Profit Factor": 1.2369119305994696,
     "Total Profit/Loss": 4622.409999999998,
-    "Score": 0.5376070168911409
+    "Score": 1.1210288817725726
+}
+{
+    "Strategy Title": "MACD with RSI Confirmation Strategy",
+    "Symbol": "SH",
+    "Total Trades": 10,
+    "Percent Profitable": 20.0,
+    "Profit Factor": 0.0109121650072224,
+    "Total Profit/Loss": -3053.6900000000014,
+    "Score": 0.514900976714361
+}
+{
+    "Strategy Title": "MACD with RSI Confirmation Strategy",
+    "Symbol": "SPXS",
+    "Total Trades": 8,
+    "Percent Profitable": 0.0,
+    "Profit Factor": 0.0,
+    "Total Profit/Loss": -8924.849999999999,
+    "Score": 0.0
 }

@@ -80,12 +80,13 @@ def extract_strategy_and_signals(filename):
         long_signal = 'N/A'
         signal_length = 'N/A'
         strategy = 'Williams Alligator'
-    elif 'macd' in filename:
+    elif 'macd' in filename and 'rsi' in filename:
         short_signal = 'N/A'
         long_signal = 'N/A'
         signal_length = 'N/A'
         strategy = 'MACD'
     else:
+        print(filename)
         short_signal = 'N/A'
         long_signal = 'N/A'
         signal_length = 'N/A'
@@ -138,8 +139,9 @@ scripts = {
     'EMA Slope Change': 'BackTest/EMASlopeBacktest.py',
     'SMA Cross': 'BackTest/SMACrossBacktest.py',
     'Williams Alligator': 'BackTest/WIlliamsAlligatorBacktest.py',
-    'MACD': 'BackTest/MACDBacktest.py',
-    'SMA Slope Change': 'BackTest/SMASlopeBacktest.py'
+    'MACD': 'BackTest/MACDRSIBacktest.py',
+    'SMA Slope Change': 'BackTest/SMASlopeBacktest.py',
+    'MACD SMA': 'BackTest/SMAMACDBacktest.py'
 }
 
 # Load the consolidated CSV into a DataFrame
@@ -175,6 +177,8 @@ for _, row in df.iterrows():
         elif strategy == 'SMA Slope Change':
             length = row['signal_length']  # or 'long_signal' depending on your data
             args = [symbol, str(int(length))]
+        elif strategy == 'MACD SMA':
+            args = [symbol]
         else:
             continue
 
