@@ -1,0 +1,7 @@
+{
+    "API_KEY": "api_here",
+    "YEARS_TO_LOOK_BACK": 5,
+    "INITIAL_CASH": 100000,
+    "PERCENT_TO_INVEST": 0.15,
+    "PERCENT_STOP_LOSS": 0.02
+}

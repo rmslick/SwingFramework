@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Cross Generic with Positioning",
+    "Symbol": "JNJ",
+    "Short SMA Length": 20,
+    "Long SMA Length": 50,
+    "Total Trades": 16,
+    "Percent Profitable": 31.25,
+    "Profit Factor": 0.647001703200692,
+    "Total Profit/Loss": -1595.8699999999885
+}

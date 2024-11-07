@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "UNP",
+    "SMA Length": 50,
+    "Slope Length": 5,
+    "Total Trades": 18,
+    "Percent Profitable": 44.44444444444444,
+    "Profit Factor": 0.6779950573550265,
+    "Total Profit/Loss": -2152.5000000000023
+}

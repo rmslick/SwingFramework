@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "PG",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 17,
+    "Percent Profitable": 47.05882352941176,
+    "Profit Factor": 1.0430055642996376,
+    "Total Profit/Loss": 224.60000000000116
+}

@@ -1,6 +1,36 @@
 {
     "Strategy Title": "Williams Alligator Long Strategy with Positioning",
-    "Symbol": "NVDA",
+    "Symbol": "UNP",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 32,
+    "Percent Profitable": 65.625,
+    "Profit Factor": 4.047715638903508,
+    "Total Profit/Loss": 3185.3199999999997,
+    "Score": 1.63534821235008
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "NEE",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 21,
+    "Percent Profitable": 61.904761904761905,
+    "Profit Factor": 2.0032727418995058,
+    "Total Profit/Loss": 2743.66,
+    "Score": 1.5544801027646695
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "RSP",
     "Jaw Length": 13,
     "Jaw Shift": 8,
     "Teeth Length": 8,
@@ -8,60 +38,29 @@
     "Lips Length": 5,
     "Lips Shift": 3,
     "Total Trades": 31,
-    "Percent Profitable": 67.74193548387096,
-    "Profit Factor": 5.1226710348109386,
-    "Total Profit/Loss": 9010.18,
-    "Score": 2.6645119004304596
+    "Percent Profitable": 61.29032258064516,
+    "Profit Factor": 2.709069204863473,
+    "Total Profit/Loss": 2161.87,
+    "Score": 1.5132670050858814
 }
 {
     "Strategy Title": "Williams Alligator Long Strategy with Positioning",
-    "Symbol": "DUK",
+    "Symbol": "IVE",
     "Jaw Length": 13,
     "Jaw Shift": 8,
     "Teeth Length": 8,
     "Teeth Shift": 5,
     "Lips Length": 5,
     "Lips Shift": 3,
-    "Total Trades": 24,
-    "Percent Profitable": 58.333333333333336,
-    "Profit Factor": 0.7512257573292159,
-    "Total Profit/Loss": -810.2999999999969,
-    "Score": 1.3084110794371346
-}
-{
-    "Strategy Title": "MACD with RSI Confirmation Strategy",
-    "Symbol": "WFC",
-    "Total Trades": 24,
-    "Percent Profitable": 54.166666666666664,
-    "Profit Factor": 1.4753943875752618,
-    "Total Profit/Loss": 2643.4399999999973,
-    "Score": 1.5162333134034782
-}
-{
-    "Strategy Title": "SMA Cross Generic with Positioning",
-    "Symbol": "IVE",
-    "Short SMA Length": 20,
-    "Long SMA Length": 50,
-    "Total Trades": 13,
-    "Percent Profitable": 53.84615384615385,
-    "Profit Factor": 2.5400373787670345,
-    "Total Profit/Loss": 5743.399999999997,
-    "Score": 1.8341884047253563
-}
-{
-    "Strategy Title": "SMA Cross Generic with Positioning",
-    "Symbol": "CVX",
-    "Short SMA Length": 13,
-    "Long SMA Length": 34,
-    "Total Trades": 25,
-    "Percent Profitable": 52.0,
-    "Profit Factor": 1.753969594491962,
-    "Total Profit/Loss": 6204.739999999989,
-    "Score": 1.670579982263407
+    "Total Trades": 31,
+    "Percent Profitable": 61.29032258064516,
+    "Profit Factor": 0.8991117606210408,
+    "Total Profit/Loss": -194.68000000000242,
+    "Score": 1.3842571925553608
 }
 {
     "Strategy Title": "Williams Alligator Long Strategy with Positioning",
-    "Symbol": "EQIX",
+    "Symbol": "XLB",
     "Jaw Length": 13,
     "Jaw Shift": 8,
     "Teeth Length": 8,
@@ -69,268 +68,333 @@
     "Lips Length": 5,
     "Lips Shift": 3,
     "Total Trades": 29,
-    "Percent Profitable": 51.724137931034484,
-    "Profit Factor": 0.9822766050547918,
-    "Total Profit/Loss": -55.4900000000041,
-    "Score": 1.2839168668877587
+    "Percent Profitable": 58.620689655172406,
+    "Profit Factor": 1.2324562918941315,
+    "Total Profit/Loss": 538.2199999999965,
+    "Score": 1.3836998324336471
 }
 {
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "BA",
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "HD",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 30,
+    "Percent Profitable": 56.666666666666664,
+    "Profit Factor": 2.5767351709943958,
+    "Total Profit/Loss": 3156.3399999999992,
+    "Score": 1.497253759805083
+}
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "UNH",
     "SMA Length": 20,
-    "Slope Length": 5,
-    "Total Trades": 28,
+    "Slope Length": 20,
+    "Total Trades": 18,
+    "Percent Profitable": 55.55555555555556,
+    "Profit Factor": 1.244054742096756,
+    "Total Profit/Loss": 1617.2799999999936,
+    "Score": 1.3960663878704827
+}
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "COP",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 17,
+    "Percent Profitable": 52.94117647058824,
+    "Profit Factor": 2.0312748426045895,
+    "Total Profit/Loss": 9846.210000000003,
+    "Score": 1.8067226890756303
+}
+{
+    "Strategy Title": "SMA Cross Generic with Positioning",
+    "Symbol": "UNH",
+    "Short SMA Length": 20,
+    "Long SMA Length": 50,
+    "Total Trades": 14,
     "Percent Profitable": 50.0,
-    "Profit Factor": 1.1779412378243466,
-    "Total Profit/Loss": 2900.2500000000014,
-    "Score": 1.4061744339625784
+    "Profit Factor": 1.3790557316841607,
+    "Total Profit/Loss": 1577.0500000000015,
+    "Score": 1.3092079036225788
 }
 {
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "UNP",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 18,
+    "Percent Profitable": 50.0,
+    "Profit Factor": 1.092811592871702,
+    "Total Profit/Loss": 687.0999999999995,
+    "Score": 1.260487408550742
+}
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "UNP",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 18,
+    "Percent Profitable": 50.0,
+    "Profit Factor": 1.092811592871702,
+    "Total Profit/Loss": 687.0999999999995,
+    "Score": 1.260487408550742
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "JNJ",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 26,
+    "Percent Profitable": 50.0,
+    "Profit Factor": 1.2421440502824825,
+    "Total Profit/Loss": 879.9200000000048,
+    "Score": 1.2710433789532947
+}
+{
+    "Strategy Title": "SMA Cross Generic with Positioning",
     "Symbol": "PEP",
-    "SMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 47,
-    "Percent Profitable": 48.93617021276596,
-    "Profit Factor": 1.72944118745074,
-    "Total Profit/Loss": 4220.429999999994,
-    "Score": 1.5470430202357783
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "V",
-    "SMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 43,
-    "Percent Profitable": 48.837209302325576,
-    "Profit Factor": 1.2852642001980372,
-    "Total Profit/Loss": 3359.1399999999967,
-    "Score": 1.426962376510918
-}
-{
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "PEP",
-    "EMA Length": 20,
-    "Slope Length": 5,
+    "Short SMA Length": 10,
+    "Long SMA Length": 20,
     "Total Trades": 37,
     "Percent Profitable": 48.64864864864865,
-    "Profit Factor": 1.1248198933768787,
-    "Total Profit/Loss": 831.6399999999962,
-    "Score": 1.2992118648058502
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "COP",
-    "SMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 46,
-    "Percent Profitable": 47.82608695652174,
-    "Profit Factor": 1.8442909307426372,
-    "Total Profit/Loss": 18064.929999999986,
-    "Score": 2.0660293928885967
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "XLE",
-    "SMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 42,
-    "Percent Profitable": 47.61904761904761,
-    "Profit Factor": 2.3587319918831504,
-    "Total Profit/Loss": 13318.06000000001,
-    "Score": 1.987520905079351
-}
-{
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "XLE",
-    "EMA Length": 50,
-    "Slope Length": 5,
-    "Total Trades": 30,
-    "Percent Profitable": 46.666666666666664,
-    "Profit Factor": 2.1980144898532967,
-    "Total Profit/Loss": 9757.840000000006,
-    "Score": 1.8101782479683886
+    "Profit Factor": 0.9617818532659334,
+    "Total Profit/Loss": -231.7300000000032,
+    "Score": 1.189593851370311
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
-    "Symbol": "V",
-    "Short SMA Length": 5,
-    "Long SMA Length": 10,
-    "Total Trades": 67,
-    "Percent Profitable": 46.26865671641791,
-    "Profit Factor": 0.9928037485321556,
-    "Total Profit/Loss": -113.24999999999545,
-    "Score": 1.2032985140912453
+    "Symbol": "PG",
+    "Short SMA Length": 10,
+    "Long SMA Length": 20,
+    "Total Trades": 33,
+    "Percent Profitable": 48.484848484848484,
+    "Profit Factor": 1.8702750157654051,
+    "Total Profit/Loss": 4926.740000000003,
+    "Score": 1.4694993458271908
 }
 {
-    "Strategy Title": "SMA Cross Generic with Positioning",
-    "Symbol": "SO",
-    "Short SMA Length": 13,
-    "Long SMA Length": 34,
-    "Total Trades": 24,
-    "Percent Profitable": 45.83333333333333,
-    "Profit Factor": 1.0853085390161525,
-    "Total Profit/Loss": 721.1599999999953,
-    "Score": 1.2458460093553057
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "XLI",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 33,
+    "Percent Profitable": 48.484848484848484,
+    "Profit Factor": 0.5258383324631034,
+    "Total Profit/Loss": -1262.279999999999,
+    "Score": 1.1306801779981008
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
     "Symbol": "XOM",
-    "SMA Length": 10,
+    "SMA Length": 50,
     "Slope Length": 5,
-    "Total Trades": 42,
-    "Percent Profitable": 45.23809523809524,
-    "Profit Factor": 1.580055464763307,
-    "Total Profit/Loss": 6722.459999999985,
-    "Score": 1.55599357148213
+    "Total Trades": 19,
+    "Percent Profitable": 47.368421052631575,
+    "Profit Factor": 1.7990469364707797,
+    "Total Profit/Loss": 6700.480000000002,
+    "Score": 1.5495908779703367
 }
 {
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "CVX",
-    "EMA Length": 200,
-    "Slope Length": 5,
-    "Total Trades": 16,
-    "Percent Profitable": 43.75,
-    "Profit Factor": 1.0199229482738026,
-    "Total Profit/Loss": 133.42000000000007,
-    "Score": 1.18055168578184
-}
-{
-    "Strategy Title": "SMA Cross Generic with Positioning",
-    "Symbol": "HD",
-    "Short SMA Length": 10,
-    "Long SMA Length": 20,
-    "Total Trades": 35,
-    "Percent Profitable": 42.857142857142854,
-    "Profit Factor": 1.4644546852838947,
-    "Total Profit/Loss": 6202.30000000001,
-    "Score": 1.4790071944144776
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "UNH",
-    "SMA Length": 100,
-    "Slope Length": 5,
-    "Total Trades": 14,
-    "Percent Profitable": 42.857142857142854,
-    "Profit Factor": 1.8711790571800553,
-    "Total Profit/Loss": 4255.6399999999985,
-    "Score": 1.4862783085162738
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "NEE",
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "PG",
     "SMA Length": 20,
-    "Slope Length": 5,
-    "Total Trades": 26,
-    "Percent Profitable": 42.30769230769231,
-    "Profit Factor": 1.643788841569612,
-    "Total Profit/Loss": 5437.550000000007,
-    "Score": 1.477569397642514
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "KO",
-    "SMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 45,
-    "Percent Profitable": 40.0,
-    "Profit Factor": 0.8408375488189335,
-    "Total Profit/Loss": -1344.4500000000035,
-    "Score": 1.0354785113465512
+    "Slope Length": 20,
+    "Total Trades": 17,
+    "Percent Profitable": 47.05882352941176,
+    "Profit Factor": 1.0430055642996376,
+    "Total Profit/Loss": 224.60000000000116,
+    "Score": 1.1903498241286523
 }
 {
     "Strategy Title": "EMA Slope Change with Positioning Strategy",
     "Symbol": "V",
-    "EMA Length": 10,
+    "EMA Length": 20,
     "Slope Length": 5,
-    "Total Trades": 53,
-    "Percent Profitable": 37.735849056603776,
-    "Profit Factor": 0.8322550712683964,
-    "Total Profit/Loss": -2538.12000000001,
-    "Score": 0.9561531989955294
+    "Total Trades": 39,
+    "Percent Profitable": 46.15384615384615,
+    "Profit Factor": 0.9476108215926449,
+    "Total Profit/Loss": -543.159999999991,
+    "Score": 1.1345285142023864
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "D",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 24,
+    "Percent Profitable": 45.83333333333333,
+    "Profit Factor": 1.1574030924542265,
+    "Total Profit/Loss": 300.61000000000547,
+    "Score": 1.1758368708294364
 }
 {
     "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "UNP",
+    "SMA Length": 50,
+    "Slope Length": 5,
+    "Total Trades": 18,
+    "Percent Profitable": 44.44444444444444,
+    "Profit Factor": 0.6779950573550265,
+    "Total Profit/Loss": -2152.5000000000023,
+    "Score": 1.020376840152888
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
     "Symbol": "XLU",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 27,
+    "Percent Profitable": 44.44444444444444,
+    "Profit Factor": 0.43214338414237974,
+    "Total Profit/Loss": -2578.369999999999,
+    "Score": 0.9970624997559636
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "SO",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 31,
+    "Percent Profitable": 41.935483870967744,
+    "Profit Factor": 0.8578865320606153,
+    "Total Profit/Loss": -303.5699999999993,
+    "Score": 1.0833651116213017
+}
+{
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "PG",
     "SMA Length": 20,
     "Slope Length": 5,
-    "Total Trades": 24,
-    "Percent Profitable": 37.5,
-    "Profit Factor": 0.9497650800334645,
-    "Total Profit/Loss": -362.6700000000019,
-    "Score": 1.0562135560455082
-}
-{
-    "Strategy Title": "SMA Slope Change with Positioning Strategy",
-    "Symbol": "CVX",
-    "SMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 49,
-    "Percent Profitable": 36.734693877551024,
-    "Profit Factor": 1.262322088755399,
-    "Total Profit/Loss": 3737.1900000000055,
-    "Score": 1.2578348055050097
-}
-{
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "UNP",
-    "EMA Length": 100,
-    "Slope Length": 5,
-    "Total Trades": 22,
-    "Percent Profitable": 36.36363636363637,
-    "Profit Factor": 1.1600319144633557,
-    "Total Profit/Loss": 870.500000000002,
-    "Score": 1.1261752496272481
+    "Total Trades": 29,
+    "Percent Profitable": 41.37931034482759,
+    "Profit Factor": 1.9722866324953225,
+    "Total Profit/Loss": 4780.1500000000015,
+    "Score": 1.3531993793501065
 }
 {
     "Strategy Title": "SMA Cross Generic with Positioning",
-    "Symbol": "RSP",
-    "Short SMA Length": 20,
-    "Long SMA Length": 50,
-    "Total Trades": 14,
-    "Percent Profitable": 35.714285714285715,
-    "Profit Factor": 2.1399189655812565,
-    "Total Profit/Loss": 4912.230000000001,
-    "Score": 1.4576243833681202
+    "Symbol": "SH",
+    "Short SMA Length": 5,
+    "Long SMA Length": 10,
+    "Total Trades": 61,
+    "Percent Profitable": 39.34426229508197,
+    "Profit Factor": 0.832104336668521,
+    "Total Profit/Loss": -1695.8100000000013,
+    "Score": 0.9676613664402107
 }
 {
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "JNJ",
-    "EMA Length": 100,
+    "Strategy Title": "SMA Slope Change with Positioning Strategy",
+    "Symbol": "V",
+    "SMA Length": 50,
     "Slope Length": 5,
     "Total Trades": 23,
-    "Percent Profitable": 30.434782608695656,
-    "Profit Factor": 0.5396477976855839,
-    "Total Profit/Loss": -2849.9299999999967,
-    "Score": 0.7797026005707105
+    "Percent Profitable": 39.130434782608695,
+    "Profit Factor": 0.7135194727815324,
+    "Total Profit/Loss": -2216.559999999999,
+    "Score": 0.9358944770058646
 }
 {
-    "Strategy Title": "EMA Slope Change with Positioning Strategy",
-    "Symbol": "BA",
-    "EMA Length": 10,
-    "Slope Length": 5,
-    "Total Trades": 43,
-    "Percent Profitable": 25.581395348837212,
-    "Profit Factor": 1.2369119305994696,
-    "Total Profit/Loss": 4622.409999999998,
-    "Score": 1.1210288817725726
+    "Strategy Title": "SMA Cross Generic with Positioning",
+    "Symbol": "CVX",
+    "Short SMA Length": 10,
+    "Long SMA Length": 20,
+    "Total Trades": 36,
+    "Percent Profitable": 38.88888888888889,
+    "Profit Factor": 1.1917613193527938,
+    "Total Profit/Loss": 2398.89,
+    "Score": 1.1848875334787201
 }
 {
-    "Strategy Title": "MACD with RSI Confirmation Strategy",
-    "Symbol": "SH",
-    "Total Trades": 10,
-    "Percent Profitable": 20.0,
-    "Profit Factor": 0.0109121650072224,
-    "Total Profit/Loss": -3053.6900000000014,
-    "Score": 0.514900976714361
+    "Strategy Title": "SMA Cross Generic with Positioning",
+    "Symbol": "DUK",
+    "Short SMA Length": 20,
+    "Long SMA Length": 50,
+    "Total Trades": 19,
+    "Percent Profitable": 36.84210526315789,
+    "Profit Factor": 0.30693622373857643,
+    "Total Profit/Loss": -6848.780000000002,
+    "Score": 0.6474328609609713
 }
 {
-    "Strategy Title": "MACD with RSI Confirmation Strategy",
+    "Strategy Title": "SMA Cross Generic with Positioning",
     "Symbol": "SPXS",
-    "Total Trades": 8,
+    "Short SMA Length": 5,
+    "Long SMA Length": 10,
+    "Total Trades": 61,
+    "Percent Profitable": 34.42622950819672,
+    "Profit Factor": 0.740589461996624,
+    "Total Profit/Loss": -8420.229999999998,
+    "Score": 0.5245901639344263
+}
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "CVX",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 18,
+    "Percent Profitable": 33.33333333333333,
+    "Profit Factor": 1.0877455445564461,
+    "Total Profit/Loss": 872.7399999999966,
+    "Score": 1.0166820544140915
+}
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "CVX",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 18,
+    "Percent Profitable": 33.33333333333333,
+    "Profit Factor": 1.0877455445564461,
+    "Total Profit/Loss": 872.7399999999966,
+    "Score": 1.0166820544140915
+}
+{
+    "Strategy Title": "SMA Cross Generic with Positioning",
+    "Symbol": "JNJ",
+    "Short SMA Length": 20,
+    "Long SMA Length": 50,
+    "Total Trades": 16,
+    "Percent Profitable": 31.25,
+    "Profit Factor": 0.647001703200692,
+    "Total Profit/Loss": -1595.8699999999885,
+    "Score": 0.8497914624800875
+}
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "BRK.A",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 20,
     "Percent Profitable": 0.0,
-    "Profit Factor": 0.0,
-    "Total Profit/Loss": -8924.849999999999,
-    "Score": 0.0
+    "Profit Factor": Infinity,
+    "Total Profit/Loss": 0.0,
+    "Score": NaN
 }

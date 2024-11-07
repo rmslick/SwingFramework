@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Constants
-API_KEY = 'Ksn2Xx77FfWgJiGQAxFBYirsdIHSCFjg'  # Replace with your Financial Modeling Prep API key
+API_KEY = 'api_here'  # Replace with your Financial Modeling Prep API key
 STOCKS = [
     "AAPL", "MSFT", "NVDA",       # Information Technology
     "BRK.A", "JPM", "V",          # Financials

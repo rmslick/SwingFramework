@@ -1,0 +1,14 @@
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "RSP",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 31,
+    "Percent Profitable": 61.29032258064516,
+    "Profit Factor": 2.709069204863473,
+    "Total Profit/Loss": 2161.87
+}

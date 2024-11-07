@@ -1,0 +1,14 @@
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "NEE",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 21,
+    "Percent Profitable": 61.904761904761905,
+    "Profit Factor": 2.0032727418995058,
+    "Total Profit/Loss": 2743.66
+}

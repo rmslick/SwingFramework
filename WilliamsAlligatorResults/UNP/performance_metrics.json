@@ -1,0 +1,14 @@
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "UNP",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 32,
+    "Percent Profitable": 65.625,
+    "Profit Factor": 4.047715638903508,
+    "Total Profit/Loss": 3185.3199999999997
+}

@@ -1,0 +1,14 @@
+{
+    "Strategy Title": "Williams Alligator Long Strategy with Positioning",
+    "Symbol": "IVE",
+    "Jaw Length": 13,
+    "Jaw Shift": 8,
+    "Teeth Length": 8,
+    "Teeth Shift": 5,
+    "Lips Length": 5,
+    "Lips Shift": 3,
+    "Total Trades": 31,
+    "Percent Profitable": 61.29032258064516,
+    "Profit Factor": 0.8991117606210408,
+    "Total Profit/Loss": -194.68000000000242
+}

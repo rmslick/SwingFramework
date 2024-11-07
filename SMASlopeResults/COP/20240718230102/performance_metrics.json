@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "COP",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 17,
+    "Percent Profitable": 52.94117647058824,
+    "Profit Factor": 2.0312748426045895,
+    "Total Profit/Loss": 9846.210000000003
+}

@@ -1,2 +1,3 @@
 Stock,Date,Close,Short_SMA,Long_SMA,Crossover_Type
-HD,2024-07-17,371.89,350.212,347.65700000000004,Golden Cross
+PEP,2024-07-19,169.36,165.618,165.514,Golden Cross
+CVX,2024-07-19,159.15,157.145,156.874,Golden Cross

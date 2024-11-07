@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "Sophisticated SMA Slope Strategy with Positioning",
+    "Symbol": "CVX",
+    "SMA Length": 20,
+    "Slope Length": 20,
+    "Total Trades": 18,
+    "Percent Profitable": 33.33333333333333,
+    "Profit Factor": 1.0877455445564461,
+    "Total Profit/Loss": 872.7399999999966
+}

@@ -6,7 +6,7 @@ import re
 from collections import defaultdict
 # Define the directory to search for scripts
 directory = '.'  # Change to the directory where your scripts are located if needed
-
+import pdb
 # Find all files ending with *Scanner.py
 scanner_scripts = glob.glob(os.path.join(directory, '*Scanner.py'))
 dataframes = []
@@ -47,6 +47,8 @@ for symbol, files in symbol_files_map.items():
 
 
 def extract_strategy_and_signals(filename):
+    #print(filename)
+    #pdb.set_trace()
     if 'sma' in filename and 'crosses' in filename:
         match = re.search(r'sma_(\d+)_(\d+)_crosses', filename)
         if match:
@@ -85,12 +87,16 @@ def extract_strategy_and_signals(filename):
         long_signal = 'N/A'
         signal_length = 'N/A'
         strategy = 'MACD'
-    else:
-        print(filename)
+    elif filename == 'sma_slope_scanner_results.csv':
         short_signal = 'N/A'
         long_signal = 'N/A'
         signal_length = 'N/A'
-        strategy = 'Unknown'
+        strategy = "Slope"
+    else:
+        short_signal = 'N/A'
+        long_signal = 'N/A'
+        signal_length = 'N/A'
+        strategy = 'N/A'
     return strategy, short_signal, long_signal, signal_length
 
 # Loop through all the files in the directory
@@ -105,13 +111,14 @@ for filename in os.listdir(directory):
                 continue
             # Extract the strategy and signals from the filename
             strategy, short_signal, long_signal, signal_length = extract_strategy_and_signals(filename)
-            # Add the new columns to the DataFrame
-            df['strategy'] = strategy
-            df['short_signal'] = short_signal
-            df['long_signal'] = long_signal
-            df['signal_length'] = signal_length
-            # Append the DataFrame to the list
-            dataframes.append(df)
+            if strategy != 'N/A':
+                # Add the new columns to the DataFrame
+                df['strategy'] = strategy
+                df['short_signal'] = short_signal
+                df['long_signal'] = long_signal
+                df['signal_length'] = signal_length
+                # Append the DataFrame to the list
+                dataframes.append(df)
         except pd.errors.EmptyDataError:
             print(f'Skipping completely empty file: {filename}')
 
@@ -141,7 +148,8 @@ scripts = {
     'Williams Alligator': 'BackTest/WIlliamsAlligatorBacktest.py',
     'MACD': 'BackTest/MACDRSIBacktest.py',
     'SMA Slope Change': 'BackTest/SMASlopeBacktest.py',
-    'MACD SMA': 'BackTest/SMAMACDBacktest.py'
+    'MACD SMA': 'BackTest/SMAMACDBacktest.py' ,
+    'Slope' : 'BackTest/SlopeBacktest.py'
 }
 
 # Load the consolidated CSV into a DataFrame
@@ -179,9 +187,11 @@ for _, row in df.iterrows():
             args = [symbol, str(int(length))]
         elif strategy == 'MACD SMA':
             args = [symbol]
+        elif strategy == 'Slope':
+            args = [symbol]
         else:
             continue
-
+        print("Running strategy:",strategy)
         run_backtest(script, args)
 
 

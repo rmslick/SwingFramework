@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Replace with your Financial Modeling Prep API key
-#api_key = 'Ksn2Xx77FfWgJiGQAxFBYirsdIHSCFjg'
+#api_key = 'api_here'
 
 # List of stock symbols you want to monitor
 STOCKS = [
@@ -37,7 +37,7 @@ STOCKS = [
 SMA_COMBINATIONS = [(5, 10), (10, 20), (20, 50), (50, 100), (50, 200), (9, 21), (13, 34), (20, 100)]
 
 # Constants
-API_KEY = 'Ksn2Xx77FfWgJiGQAxFBYirsdIHSCFjg'  # Replace with your Financial Modeling Prep API key
+API_KEY = 'api_here'  # Replace with your Financial Modeling Prep API key
 #STOCKS = ['AAPL', 'MSFT', 'GOOGL']  # Sample list of stocks
 SHORT_SMA = 5
 LONG_SMA = 10

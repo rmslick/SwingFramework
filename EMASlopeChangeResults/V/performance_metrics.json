@@ -1,0 +1,10 @@
+{
+    "Strategy Title": "EMA Slope Change with Positioning Strategy",
+    "Symbol": "V",
+    "EMA Length": 20,
+    "Slope Length": 5,
+    "Total Trades": 39,
+    "Percent Profitable": 46.15384615384615,
+    "Profit Factor": 0.9476108215926449,
+    "Total Profit/Loss": -543.159999999991
+}
