@@ -3,6 +3,18 @@
 
 This repository provides a configurable pipeline for executing, analyzing, and backtesting various stock trading strategies. It leverages **pandas** for efficient data handling and **NumPy** for performance metric normalization and scoring.
 
+## Key Highlights
+
+1. **Efficient Data Processing with DataFrames**:
+   - **Loading and Merging**: All strategy output CSV files are read into DataFrames, and strategy-specific metadata is appended.
+   - **Consolidation**: Multiple DataFrames are concatenated to create a single, comprehensive dataset, enabling easy querying and further analysis.
+
+2. **NumPy Array Normalization**:
+   - **Min-Max Scaling**: The performance metrics (`Percent Profitable`, `Profit Factor`, `Total Profit/Loss`) are normalized using **NumPy arrays** for efficient mathematical operations.
+   - **Combined Scoring**: Using NumPy’s vectorized operations, normalized values are summed to produce a combined score for ranking strategies.
+
+This configurable scanner demonstrates an integrated use of **pandas** for data management and **NumPy** for performance normalization, making it a highly adaptable tool for stock trading analysis.
+
 ## Overview of Components
 
 1. **ScanDriver**: Orchestrates the execution of strategy scanners and backtests based on configurations.
@@ -197,15 +209,3 @@ print('Performance metrics saved.')
 ```
 
 ---
-
-## Key Highlights
-
-1. **Efficient Data Processing with DataFrames**:
-   - **Loading and Merging**: All strategy output CSV files are read into DataFrames, and strategy-specific metadata is appended.
-   - **Consolidation**: Multiple DataFrames are concatenated to create a single, comprehensive dataset, enabling easy querying and further analysis.
-
-2. **NumPy Array Normalization**:
-   - **Min-Max Scaling**: The performance metrics (`Percent Profitable`, `Profit Factor`, `Total Profit/Loss`) are normalized using **NumPy arrays** for efficient mathematical operations.
-   - **Combined Scoring**: Using NumPy’s vectorized operations, normalized values are summed to produce a combined score for ranking strategies.
-
-This configurable scanner demonstrates an integrated use of **pandas** for data management and **NumPy** for performance normalization, making it a highly adaptable tool for stock trading analysis.
